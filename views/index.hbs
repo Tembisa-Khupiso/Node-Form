@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Survey Form</title>
+	<link rel="stylesheet" href="/css/form.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+	<script type="text/javascript" src="/js/animation.js"></script>
+</head>
+<body>
+	<div id="header">
+			<h1 id="title">Welcome to our Survey Page</h1>
+	</div>
+	
+  <form id="survey-form" class="survey" action="survey" method="POST">
+		<fieldset>
+			<legend>
+				<p id="description">We would love to hear from you. Please fill out this form</p>
+			</legend>
+			<div class="elements">
+				<label id="name-label" for="fullname">Fullname :</label>
+				<input id="name" required="required" type="text" value="" placeholder="Please enter your name" name="fullname" size="20">
+      </div>
+      <div class="elements">
+				<label id="email-label" for="email">Email :</label>
+				<input id="email" required="required" type="email" value="" placeholder="Please enter your email address" name="email" size="20">
+      </div>
+      <div class="elements">
+				<label id="number-label" for="number">Mobile :</label>
+				<input id="number" required="required" type="number" min="18" max="500 000" step="1" value="" placeholder="Please enter your mobile number" name="number" size="20">
+			</div>
+			<div class="elements">
+				<label id="age-label" for="Age">Age :</label>
+				<input id="age" required="required" type="number" min="18" max="50" step="1" value="" placeholder="How old are you?" name="age" size="10">
+			</div>
+			<div class="elements">
+				<label id="pro-label" for="pro" value="pro"> Profession :</label>
+				<select id="dropdown" name="pro">
+					<option value="Student">Student</option>
+					<option value="Baker" selected="selected">Baker</option>
+				</select>
+			</div>
+			<div class="elements">
+				<label id="gender-label" for="gender">Gender: </label>
+				<div class="gender">
+					<input id="r1" type="radio" name="gender" value="Male" checked="checked">Male
+			</div>
+			<div class="gender">
+					<input id="r2" type="radio" name="gender" value="Female">Female
+        </div>
+        </div><br><br>
+			<div class="elements">
+				<label id="flour-label" for="flour">Favorite Flour :</label>
+				<div class="flour">
+					<input id="ch1" type="checkbox" name="favorite_flour[]" value="golden-cloud" checked="checked"> Golden Cloud Cake Flour
+					</div>
+				  <div class="flour">
+					<input id="ch2" type="checkbox" name="favorite_flour[]" value="sasko"> Sasko Cake Flour
+        	</div>
+					<div class="flour">
+						<input id="ch3" type="checkbox" name="favorite_flour[]" value="snowflake"> Snowflake Cake Flour
+					</div>
+					</div>
+					<br><br><br>
+					<div class="elements">
+						<label id="txt-label" for="list">Leave Comment :</label>
+						<div class="txt"><textarea name="text"></textarea></div>
+					</div>
+				<div class="submit">
+					<button id="submit" class="btn btn-primary">Submit</button>
+				</div>
+		</fieldset>
+	</form>
+	<br>
+	<div id="wrapper">
+			<button id="Mybtn" class="btn btn-primary">
+				Click Me To Open And Close The Form
+			</button>
+  </div>
+	<footer>
+		  <p class="copyright">Copyright ©2019. Designed by <a href="tembisakupiso.co.za">Tembisa Khupiso</a></p>
+  </footer>
+	<script type="text/javascript" src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>

@@ -1,0 +1,209 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    background-image: url(../img/bg-body1.png);
+    background-attachment: fixed;
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+  
+  #survey-form {
+      display: none;
+      margin:0 auto;
+      width: 60%;
+      padding: 0px;
+      border: none;
+      margin-top: 10px;
+  }
+  
+  label {
+      width: 10em;
+      font-size: 18px;
+      float: left;
+      margin-right: 0.5em;
+      display: block;
+      letter-spacing: 2px;
+      text-align: left;
+      color: #fff;
+  }
+  
+  .submit {
+      text-align: center;
+  }
+  
+  fieldset {
+      background: #5d0027eb none repeat scroll 0 0;
+      padding: 0px;
+      border: none;
+  }
+  
+  legend {
+      color: #fff;
+      background: #474444;
+      border: none;
+      padding: 10px 0px;
+      width: 100%;
+      min-height: fit-content;
+  }
+  
+  .elements {
+      padding: 8px 0px 0px 85px;
+  }
+  
+  p {
+      margin: 0px;
+      padding: 0px;
+      font-size: 20px;
+      letter-spacing: 2px;
+      font-weight: 300;
+  }
+  
+  span {
+      color:#666666;
+      font-size:12px;
+      margin-bottom:1px;
+  }
+  
+  .btn{
+    height: 40px;
+    width: 25%;
+    margin-bottom: 0;
+    font-size: 20px;
+    line-height: 20px;
+    color: #ffffff;
+    text-align: center;
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+    vertical-align: middle;
+    cursor: pointer;
+    background-color: #590d26;
+    border: none;
+  }
+  
+  .btn:hover{
+    color: #fff;
+    background-color: #1b1b1bed;
+  }
+  
+  input[type="text"] {
+    width: 50%;
+    padding: 5px;
+    letter-spacing: 2px;
+  }
+
+  input[type="email"] {
+    width: 50%;
+    padding: 5px;
+    letter-spacing: 2px;
+  }
+
+  input[type="number"] {
+    width: 50%;
+    padding: 5px;
+    letter-spacing: 2px;
+  }
+  
+  input#age {
+      width: 50%;
+      padding: 5px;
+      letter-spacing: 2px;
+  }
+  
+  select {
+      width: 52%;
+      padding: 5px;
+      letter-spacing: 2px;
+  }
+  
+  hr {
+      height: 10px;
+  }
+  
+  button#submit {
+      width: 100%;
+      font-size: 20px;
+      margin-top: 10px;
+      height: 45px;
+      letter-spacing: 5px;
+      font-weight: 300;
+      background-color: #383737;
+      border: none;
+      text-transform: uppercase;
+      }
+  
+  h1 {
+      text-transform: uppercase;
+      letter-spacing: 5px;
+      background-color: #50021deb;
+      color: #fff;
+      padding: 5px 0 5px 0;
+      width: 100%;
+      margin: 0;
+  }
+  
+  footer {
+      background-color: #1b1b1bed;
+      bottom: 0%;
+      position: absolute;
+      width: 100%;
+      padding: 15px 0 15px 0;
+  }
+  
+  p.copyright {
+      color: #ffffff !important;
+      font-size: 16px;
+  }
+  
+  footer a {
+      color: #a5a5a5 !important;
+  }
+  
+  .gender {
+      width: 63%;
+      float: right;
+      text-align: left;
+      color: #fff;
+  }
+  
+  .flour {
+      width: 63%;
+      float: right;
+      text-align: left;
+      color: #fff;
+  }
+  
+  input#r1 {
+      width: 50px;
+  }
+  
+  input#r2 {
+      width: 50px;
+  }
+  
+  input#ch1 {
+      width: 50px;
+  }
+  
+  input#ch2 {
+      width: 50px;
+  }
+
+  input#ch3 {
+    width: 50px;
+}
+
+  div#header {
+    width: 100%;
+}
+
+textarea {
+    width: 50% !important;
+    height: auto !important;
+}
+
+#wrapper {
+    justify-content: center;
+    align-items: center !important;
+}
